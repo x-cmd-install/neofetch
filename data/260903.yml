@@ -1,11 +1,13 @@
 about:
-  description: 🖼️  A command-line system information tool written in bash 3.2+
+  description:
+  |
+    🖼️  A command-line system information tool written in bash 3.2+
   license: MIT
   homepage: 
   head: ccd5d9f
   archived: true
   latestVersion: 7.1.0
-  collectedAt: 2026-09-03T05:13:10Z
+  collectedAt: 2026-09-03T22:38:10Z
 timeline:
   created: 2015-12-30
   lastCommit: 2021-12-10
@@ -22,7 +24,7 @@ language:
   Shell: 376936
   Roff: 12449
   Makefile: 418
-totalLine: 389803
+totalBytes: 389803
 recent:
   last30d:
     since: 2026-08-04
