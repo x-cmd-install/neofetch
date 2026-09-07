@@ -5,13 +5,13 @@ about:
   head: ccd5d9f
   archived: true
   latestVersion: "7.1.0"
-  collectedAt: 2026-09-07T05:41:00Z
+  collectedAt: 2026-09-07T18:49:02Z
 timeline:
   created: 2015-12-30
   lastCommit: 2021-12-10
   lastRelease: 2020-08-02
 popularity:
-  star: 23693
+  star: 23691
   watcher: 4
   fork: 1781
   release: 32
@@ -81,7 +81,7 @@ total:
   commit: 5274
 ---
 path: /home/runner/.x-repo/github.com/dylanaraps/neofetch
-collectedAt: 2026-09-07T05:41:04Z
+collectedAt: 2026-09-07T18:49:06Z
 loc:
   Bash:
     code: 9654
@@ -183,7 +183,7 @@ checks:
       - 'Warn: 0 commits out of 19 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:41:04+00:00
+  collectedAt: 2026-09-07T18:49:32+00:00
   platform:
     darwin/arm64:
       name:  null
