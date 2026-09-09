@@ -7,7 +7,7 @@
 - **Latest release**: `7.1.0` (2020-08-02)
 - **Last commit**: 2021-12-10
 - **License**: MIT
-- **Stars**: 23688 · **Forks**: 1782 · **Open issues**: 1195 · **Contributors**: 201
+- **Stars**: 23688 · **Forks**: 1780 · **Open issues**: 1195 · **Contributors**: 201
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/neofetch> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:53:20Z._
+_Last regenerated: 2026-09-09T20:27:33Z._
