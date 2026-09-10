@@ -7,7 +7,7 @@ about:
   latestVersion: "7.1.0"
   latestRelease: "7.1.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:50:53Z
+  collectedAt: 2026-09-10T20:31:11Z
 timeline:
   created: 2015-12-30
   lastCommit: 2021-12-10
@@ -20,7 +20,7 @@ popularity:
   fork: 1780
   release: 32
   contributor: 201
-  pullRequest: 1248
+  pullRequest: 1249
   issue: 1195
 language:
   Shell: 376936
@@ -85,7 +85,7 @@ total:
   commit: 5274
 ---
 path: /home/runner/.x-repo/github.com/dylanaraps/neofetch
-collectedAt: 2026-09-10T05:50:56Z
+collectedAt: 2026-09-10T20:31:15Z
 loc:
   Bash:
     code: 9654
