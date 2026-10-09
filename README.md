@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 23,666 · **Forks**: 1,775 · **Open issues**: 1,195 · **Contributors**: 200
+- **Stars**: 23,664 · **Forks**: 1,776 · **Open issues**: 1,195 · **Contributors**: 200
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-14 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-19 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for neofetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T07:06:45Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T07:00:29Z._
