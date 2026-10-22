@@ -43,10 +43,10 @@
   "body": "<img src=\"https://i.imgur.com/ZQI2EYz.png\" alt=\"logo\" height=\"100px\">\r\n\r\n```\r\nNOTE\r\n\r\n* This list isn't complete. There have been more changes\r\n  and fixes than are listed here. This release contains a\r\n  lot of bug fixes. \r\n\r\n* [distro] added support for latest macOS.\r\n* [distro] added automatic detection for Ubuntu flavours.\r\n* [uptime] fixed seconds on Linux.\r\n* [desktop environment] enabled version output by default.\r\n* [distro] now displays whether -current or -release when OpenBSD is detected.\r\n* [distro] added support for OpenStage Linux.\r\n* [theme] change gtk3 config order.\r\n* [distro] split AOSC into OS and OS/Retro.\r\n* [distro] added support for openmamba \r\n* [general] added support for OIL shell.\r\n* [distro] added support for Alter Linux\r\n* [distro] added support for Serene Linux \r\n* [window manager] added support for xmonad.\r\n* [packages] sped up guix.\r\n* [shell] added es shell support.\r\n* [distro] added support for OS Elbrus.\r\n* [distro] added support for sambabox.\r\n* [disk] fixed bug with disk entries and spaces in filenames.\r\n* [resolution] multi-monitor Windows support.\r\n* [distro] added support for Venom Linux.\r\n* [song] added playerctl support.\r\n* [general] updated iOS device information.\r\n* [distro] added support for Hash Linux.\r\n* [distro] added support for Garuda Linux.\r\n* [window manager] added support for x11fs.\r\n* [song] added Tauon Music Box support.\r\n* [distro] added support for DarkOS.\r\n* [song] added support for Olivia player.\r\n* [distro] added support for ITX.\r\n* [resolution] fixed output when monitor connected but turned off.\r\n* [ascii] added logo for Ubuntu Cinnamon.\r\n* [distro] added support for OpenEuler.\r\n* [terminal] added support for Windows terminal.\r\n* [memory] added support for changing output unit (kb, mb, gb).\r\n* [wallpaper] added LXQT support.\r\n```",
   "reactions": {
     "url": "https://api.github.com/repos/dylanaraps/neofetch/releases/29206607/reactions",
-    "total_count": 145,
+    "total_count": 146,
     "+1": 26,
     "-1": 0,
-    "laugh": 8,
+    "laugh": 9,
     "hooray": 69,
     "confused": 0,
     "heart": 24,
