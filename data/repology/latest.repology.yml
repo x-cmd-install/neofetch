@@ -1,38 +1,96 @@
-- repo: deepin_25
+- repo: kiss_community
   subrepo: community
   srcname: neofetch
-  binnames:
-    - neofetch
   visiblename: neofetch
-  version: 7.1.0-2.1
-  origversion: 7.1.0-2.1-0deepin
-  status: untrusted
+  version: 7.1.0
+  origversion: null
+  status: newest
   maintainers:
-    - iwamatsu@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
+    - dylan.araps@gmail.com
+- repo: gnuguix
+  srcname: neofetch
+  binname: neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: System information script
+- repo: openindiana
+  subrepo: hipster
+  srcname: neofetch
+  binname: application/neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: A command-line system information tool written in bash 3.2+
+  categories:
+    - Applications/System Utilities
+- repo: openkylin_1_0
+  subrepo: yangtze/main
   srcname: neofetch
   binnames:
     - neofetch
   visiblename: neofetch
   version: 7.1.0
-  origversion: 7.1.0-2
+  origversion: 7.1.0-ok1
   status: newest
   maintainers:
-    - iwamatsu@debian.org
+    - packaging@lists.openkylin.top
   categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
+    - utils
+- repo: gobolinux
+  srcname: Neofetch
+  visiblename: Neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: System info script
+  licenses:
+    - The MIT License (MIT)
+- repo: crux_37
+  subrepo: contrib
   srcname: neofetch
-  binnames:
-    - neofetch
   visiblename: neofetch
-  version: 6.0.0
-  origversion: 6.0.0-2
-  status: outdated
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: A command-line system information tool written in bash 3.2+
   maintainers:
-    - iwamatsu@debian.org
+    - tbier@posteo.de
+- repo: haikuports_master
+  srcname: app-misc/neofetch
+  visiblename: app-misc/neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  categories:
+    - app-misc
+- repo: freebsd
+  srcname: sysutils/neofetch
+  binname: neofetch
+  visiblename: sysutils/neofetch
+  version: 7.1.0
+  origversion: 7.1.0_1
+  status: newest
+  summary: Fast, highly customizable system info script
+  maintainers:
+    - pkubaj@freebsd.org
+  categories:
+    - sysutils
+- repo: alpine_3_20
+  subrepo: community
+  srcname: neofetch
+  binname: neofetch-doc
+  visiblename: neofetch-doc
+  version: 7.1.0
+  origversion: 7.1.0-r1
+  status: newest
+  summary: A CLI system information tool written in Bash that supports displaying images (documentation)
+  maintainers:
+    - dawidd0811@gmail.com
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: neofetch
   visiblename: neofetch
@@ -133,19 +191,6 @@
     - dawidd0811@gmail.com
   licenses:
     - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: neofetch
-  binname: neofetch-doc
-  visiblename: neofetch-doc
-  version: 7.1.0
-  origversion: 7.1.0-r1
-  status: newest
-  summary: A CLI system information tool written in Bash that supports displaying images (documentation)
-  maintainers:
-    - dawidd0811@gmail.com
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: neofetch
@@ -172,19 +217,6 @@
     - achill@achill.org
   licenses:
     - MIT
-- repo: deepin_23
-  subrepo: community
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0-2.1
-  origversion: 7.1.0-2.1-0deepin
-  status: untrusted
-  maintainers:
-    - iwamatsu@debian.org
-  categories:
-    - utils
 - repo: alt_p11
   srcname: neofetch
   binnames:
@@ -316,16 +348,6 @@
   summary: A fast, highly customizable system info script
   licenses:
     - MIT-with-advertising
-- repo: crux_37
-  subrepo: contrib
-  srcname: neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: A command-line system information tool written in bash 3.2+
-  maintainers:
-    - tbier@posteo.de
 - repo: debian_11
   subrepo: bullseye/main
   srcname: neofetch
@@ -347,6 +369,54 @@
   visiblename: neofetch
   version: 7.1.0
   origversion: 7.1.0-4
+  status: newest
+  maintainers:
+    - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 6.0.0
+  origversion: 6.0.0-2
+  status: outdated
+  maintainers:
+    - iwamatsu@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0-2.1
+  origversion: 7.1.0-2.1-0deepin
+  status: untrusted
+  maintainers:
+    - iwamatsu@debian.org
+  categories:
+    - utils
+- repo: deepin_25
+  subrepo: community
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0-2.1
+  origversion: 7.1.0-2.1-0deepin
+  status: untrusted
+  maintainers:
+    - iwamatsu@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: 7.1.0-2
   status: newest
   maintainers:
     - iwamatsu@debian.org
@@ -416,18 +486,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: sysutils/neofetch
-  binname: neofetch
-  visiblename: sysutils/neofetch
-  version: 7.1.0
-  origversion: 7.1.0_1
-  status: newest
-  summary: Fast, highly customizable system info script
-  maintainers:
-    - pkubaj@freebsd.org
-  categories:
-    - sysutils
 - repo: gentoo
   srcname: app-misc/neofetch
   visiblename: app-misc/neofetch
@@ -456,40 +514,6 @@
     - MIT
   categories:
     - app-misc
-- repo: gnuguix
-  srcname: neofetch
-  binname: neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: System information script
-- repo: gobolinux
-  srcname: Neofetch
-  visiblename: Neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: System info script
-  licenses:
-    - The MIT License (MIT)
-- repo: haikuports_master
-  srcname: app-misc/neofetch
-  visiblename: app-misc/neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  categories:
-    - app-misc
-- repo: kiss_community
-  subrepo: community
-  srcname: neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  maintainers:
-    - dylan.araps@gmail.com
 - repo: liguros_stable
   srcname: app-misc/neofetch
   visiblename: app-misc/neofetch
@@ -671,30 +695,6 @@
     - ports@openbsd.org
   categories:
     - sysutils
-- repo: openindiana
-  subrepo: hipster
-  srcname: neofetch
-  binname: application/neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: A command-line system information tool written in bash 3.2+
-  categories:
-    - Applications/System Utilities
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-ok1
-  status: newest
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - utils
 - repo: openkylin_1_0
   subrepo: yangtze-proposed/main
   srcname: neofetch
