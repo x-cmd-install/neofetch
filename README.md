@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 23,635 · **Forks**: 1,775 · **Open issues**: 1,194 · **Contributors**: 200
+- **Stars**: 23,632 · **Forks**: 1,775 · **Open issues**: 1,194 · **Contributors**: 200
 
 ## Totals (cumulative)
 
@@ -56,21 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## Distribution status
-
-Reported by **102** distros on [repology.org](https://repology.org/project/neofetch). **78** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Ubuntu 24.04 LTS | `7.1.0` | ✅ latest |
-| Alpine edge | `7.1.0` | ✅ latest |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-17 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -81,4 +72,4 @@ Install metadata for neofetch lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:37:55Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:59:16Z._
