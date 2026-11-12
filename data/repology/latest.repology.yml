@@ -1,95 +1,25 @@
-- repo: slackware_current
-  subrepo: slackware
-  binname: neofetch
-  visiblename: neofetch
-  version: 20211210_ccd5d9f5
-  origversion: null
-  status: incorrect
-  maintainers:
-    - volkerdi@slackware.com
-- repo: serenityos
-  srcname: neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: A command-line system information tool.
-  licenses:
-    - MIT
-  categories:
-    - Utility
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: neofetch
-  visiblename: neofetch
-  version: 20211210_ccd5d9f5
-  origversion: null
-  status: incorrect
-  maintainers:
-    - volkerdi@slackware.com
-- repo: openindiana
-  subrepo: hipster
-  srcname: neofetch
-  binname: application/neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: null
-  status: newest
-  summary: A command-line system information tool written in bash 3.2+
-  categories:
-    - Applications/System Utilities
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-ok1
-  status: newest
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - utils
-- repo: epel_9
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-7.el9
-  status: newest
-  summary: CLI system information tool written in Bash
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: alpine_3_19
+- repo: deepin_23
   subrepo: community
   srcname: neofetch
-  binname: neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-r1
-  status: newest
-  summary: A CLI system information tool written in Bash that supports displaying images
-  maintainers:
-    - dawidd0811@gmail.com
-  licenses:
-    - MIT
-- repo: raspbian_stable
-  subrepo: main
-  srcname: neofetch
   binnames:
     - neofetch
   visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-4
-  status: newest
+  version: 7.1.0-2.1
+  origversion: 7.1.0-2.1-0deepin
+  status: untrusted
   maintainers:
     - iwamatsu@debian.org
   categories:
-    - misc
+    - utils
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: neofetch
+  visiblename: neofetch
+  version: 20211210_ccd5d9f5
+  origversion: null
+  status: incorrect
+  maintainers:
+    - volkerdi@slackware.com
 - repo: aerynos
   srcname: neofetch
   visiblename: neofetch
@@ -102,12 +32,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: neofetch
-  binname: neofetch-doc
-  visiblename: neofetch-doc
+  binname: neofetch
+  visiblename: neofetch
   version: 7.1.0
   origversion: 7.1.0-r1
   status: newest
-  summary: A CLI system information tool written in Bash that supports displaying images (documentation)
+  summary: A CLI system information tool written in Bash that supports displaying images
   maintainers:
     - dawidd0811@gmail.com
   licenses:
@@ -115,12 +45,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: neofetch
-  binname: neofetch
-  visiblename: neofetch
+  binname: neofetch-doc
+  visiblename: neofetch-doc
   version: 7.1.0
   origversion: 7.1.0-r1
   status: newest
-  summary: A CLI system information tool written in Bash that supports displaying images
+  summary: A CLI system information tool written in Bash that supports displaying images (documentation)
   maintainers:
     - dawidd0811@gmail.com
   licenses:
@@ -151,17 +81,19 @@
     - dawidd0811@gmail.com
   licenses:
     - MIT
-- repo: epel_8
+- repo: alpine_3_19
+  subrepo: community
   srcname: neofetch
+  binname: neofetch
   visiblename: neofetch
   version: 7.1.0
-  origversion: 7.1.0-6.el8
+  origversion: 7.1.0-r1
   status: newest
-  summary: CLI system information tool written in Bash
+  summary: A CLI system information tool written in Bash that supports displaying images
+  maintainers:
+    - dawidd0811@gmail.com
   licenses:
     - MIT
-  categories:
-    - Unspecified
 - repo: alpine_3_19
   subrepo: community
   srcname: neofetch
@@ -175,19 +107,6 @@
     - dawidd0811@gmail.com
   licenses:
     - MIT
-- repo: raspbian_testing
-  subrepo: main
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0
-  origversion: 7.1.0-4
-  status: newest
-  maintainers:
-    - iwamatsu@debian.org
-  categories:
-    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: neofetch
@@ -240,6 +159,17 @@
     - achill@achill.org
   licenses:
     - MIT
+- repo: deepin_unstable
+  subrepo: main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 6.0.0
+  origversion: 6.0.0-2
+  status: outdated
+  maintainers:
+    - iwamatsu@debian.org
 - repo: alt_p11
   srcname: neofetch
   binnames:
@@ -407,30 +337,6 @@
     - iwamatsu@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 6.0.0
-  origversion: 6.0.0-2
-  status: outdated
-  maintainers:
-    - iwamatsu@debian.org
-- repo: deepin_23
-  subrepo: community
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.1.0-2.1
-  origversion: 7.1.0-2.1-0deepin
-  status: untrusted
-  maintainers:
-    - iwamatsu@debian.org
-  categories:
-    - utils
 - repo: deepin_25
   subrepo: community
   srcname: neofetch
@@ -455,15 +361,30 @@
     - iwamatsu@debian.org
   categories:
     - misc
-- repo: scoop
-  subrepo: main
-  binname: neofetch
+- repo: epel_8
+  srcname: neofetch
   visiblename: neofetch
   version: 7.1.0
-  origversion: null
+  origversion: 7.1.0-6.el8
   status: newest
+  summary: CLI system information tool written in Bash
   licenses:
     - MIT
+  categories:
+    - Unspecified
+- repo: epel_9
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: 7.1.0-7.el9
+  status: newest
+  summary: CLI system information tool written in Bash
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: exherbo
   subrepo: marv
   srcname: app-misc/neofetch
@@ -648,19 +569,6 @@
     - MIT
   categories:
     - app-misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: neofetch
-  binnames:
-    - neofetch
-  visiblename: neofetch
-  version: 7.0.0
-  origversion: 7.0.0-1
-  status: outdated
-  maintainers:
-    - iwamatsu@debian.org
-  categories:
-    - universe/misc
 - repo: macports
   srcname: sysutils/neofetch
   binname: neofetch
@@ -772,6 +680,30 @@
     - ports@openbsd.org
   categories:
     - sysutils
+- repo: openindiana
+  subrepo: hipster
+  srcname: neofetch
+  binname: application/neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: A command-line system information tool written in bash 3.2+
+  categories:
+    - Applications/System Utilities
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: 7.1.0-ok1
+  status: newest
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - utils
 - repo: openkylin_1_0
   subrepo: yangtze-proposed/main
   srcname: neofetch
@@ -1044,6 +976,32 @@
     - iwamatsu@debian.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: 7.1.0-4
+  status: newest
+  maintainers:
+    - iwamatsu@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: 7.1.0-4
+  status: newest
+  maintainers:
+    - iwamatsu@debian.org
+  categories:
+    - misc
 - repo: ravenports
   srcname: neofetch
   binname: neofetch
@@ -1088,6 +1046,44 @@
     - MIT
   categories:
     - Shells
+- repo: scoop
+  subrepo: main
+  binname: neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: serenityos
+  srcname: neofetch
+  visiblename: neofetch
+  version: 7.1.0
+  origversion: null
+  status: newest
+  summary: A command-line system information tool.
+  licenses:
+    - MIT
+  categories:
+    - Utility
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: neofetch
+  visiblename: neofetch
+  version: 20211210_ccd5d9f5
+  origversion: null
+  status: incorrect
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: neofetch
+  visiblename: neofetch
+  version: 20211210_ccd5d9f5
+  origversion: null
+  status: incorrect
+  maintainers:
+    - volkerdi@slackware.com
 - repo: slackware64_15_0
   subrepo: slackware64
   binname: neofetch
@@ -1099,15 +1095,6 @@
     - volkerdi@slackware.com
 - repo: slackware64_current
   subrepo: slackware64
-  binname: neofetch
-  visiblename: neofetch
-  version: 20211210_ccd5d9f5
-  origversion: null
-  status: incorrect
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
   binname: neofetch
   visiblename: neofetch
   version: 20211210_ccd5d9f5
@@ -1160,6 +1147,19 @@
   visiblename: neofetch
   version: 3.4.0
   origversion: 3.4.0-1
+  status: outdated
+  maintainers:
+    - iwamatsu@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: neofetch
+  binnames:
+    - neofetch
+  visiblename: neofetch
+  version: 7.0.0
+  origversion: 7.0.0-1
   status: outdated
   maintainers:
     - iwamatsu@debian.org
